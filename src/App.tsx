@@ -4,7 +4,6 @@ import Main from "./components/Main";
 
 function App() {
   const [value, setValue] = useState<string>("");
-
   return (
     <>
       <Header
