@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Form from "./components/Form";
 import Header from "./components/Header";
 import Main from "./components/Main";
 
@@ -16,6 +17,8 @@ function App() {
       </Header>
 
       <Main label="User Name" value={value} setValue={setValue} />
+
+      <Form />
     </>
   );
 }
